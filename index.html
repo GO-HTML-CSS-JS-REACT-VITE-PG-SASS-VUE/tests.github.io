@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запуск проектов</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 300;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+     .button {
+  width: 239px;
+  height: 84px;
+  font-size: 26px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  background-color: #000080;
+  color: #eafe34;
+  border-radius: 29px;
+  border: 5px solid #adec2b;
+  box-shadow: 11px 13px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1) translateY(0px);
+}
+
+.button:hover {
+  background-color: #000076;
+  color: #eafe34;
+  border-radius: 29px;
+  border: 5px solid #adec2b;
+  box-shadow: 11px 15px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05) translateY(-2px);
+}
+
+.button:active {
+  background-color: #00006c;
+  color: #eafe34;
+  border-radius: 29px;
+  border: 5px solid #adec2b;
+  box-shadow: 11px 11px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(0.98) translateY(2px);
+}
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .project-btn {
+                padding: 15px 20px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ТЕСТЫ</h1>
+        <div class="buttons-container">
+            <a href="MDK 05_01/index.html" class="button" target="_blank">MDK 05_01
+                <!-- <span class="btn-text">Проект </span> -->
+            </a>
+            
+            <a href="MDK 05_02/index.html" class="button" target="_blank">MDK 05_02
+                <!-- <span class="btn-text">Проект MDK 05_02</span> -->
+            </a>
+        </div>
+    </div>
+
+  
+</body>
+</html>
